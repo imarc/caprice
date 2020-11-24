@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "61fdc850d8de1ad35b072bee1b054070",
+    "packages": [
+        {
+            "name": "imarc/common-commerce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.imarc.net:imarc/common-commerce.git",
+                "reference": "5c6592289e0cd5b817a1f280ac41226f3514f2f7"
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Various iMarc Developers",
+                    "email": "info@imarc.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Cart and common payment gateways",
+            "keywords": [
+                "ecommerce",
+                "payment",
+                "store"
+            ],
+            "time": "2020-09-14T22:42:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [
+        {
+            "alias": "2.0",
+            "alias_normalized": "2.0.0.0",
+            "version": "9999999-dev",
+            "package": "imarc/common-commerce"
+        }
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "imarc/common-commerce": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

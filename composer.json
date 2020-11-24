@@ -1,0 +1,22 @@
+{
+    "name": "imarc/caprice",
+    "description": "Commerce/Transaction library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Avery Tam",
+            "email": "btam06@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"repositories": [
+        {
+            "type": "composer",
+            "url":  "http://packages.imarc.net"
+        }
+    ],
+    "require": {
+        "imarc/common-commerce": "dev-master as 2.0"
+    }
+}
