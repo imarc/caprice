@@ -18,5 +18,8 @@
     ],
     "require": {
         "imarc/common-commerce": "dev-master as 2.0"
-    }
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
 }
