@@ -83,11 +83,13 @@ class Cart extends CommerceCart
 				$this->transaction->updateTransactionState(self::STATE_STORED);
 			}
 
-			return $this->commitInventoryTransaction($payment_gateway, $trx_type);
+			$this->commitInventoryTransaction($payment_gateway, $trx_type);
 
 			if ($this->transaction && $this->transaction instanceof Stateable) {
 				$this->transaction->updateTransactionState(self::STATE_COMPLETE);
 			}
+
+			return $this->transaction;
 
 		} catch (Exception $e) {
 			if ($this->transaction && $this->transaction instanceof Stateable) {
